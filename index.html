@@ -26,7 +26,7 @@
               <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Mi Perfil</a>
+              <a class="nav-link" href="./perfil.html">Mi Perfil</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="./sobre_mi.html">Sobre Mí</a>
@@ -41,44 +41,82 @@
   </header>
 
   <main>
-    <h1>Fernando Javier Gaspari</h1>
-    <h2>Developer</h2>
-    <img src="./assets/images/A.jpg" alt="Imágen de perfil">
+    <div class="position-relative">
+      <h1>Fernando Javier Gaspari</h1>
+      <h2>Developer</h2>
+      <img src="./assets/images/A.jpg" alt="Imágen de perfil">
+    </div>
+
+    <hr>
+    <hr>
+
     <section>
       <h5>EXPERIENCIA LABORAL</h5>
       <article>
         <ul>
           <li>
-            2021 - 2021 Finalizado <br> Alkemy Labs (pasantía) <button onclick="moreInfo()" type="button"
-              id="btn_alkemy" class="btn btn-dark">Más Info</button>
+            2021 - 2021 (Finalizado) <br> <a href="https://www.alkemy.org/" target="_blank"
+              rel="noopener noreferrer">Alkemy Labs</a> (pasantía) <button onclick="moreInfo('btn_alkemy')"
+              type="button" id="btn_alkemy" class="btn btn-dark">Más Info</button>
             <p id="p_alkemy"></p>
           </li>
         </ul>
       </article>
     </section>
+
+    <hr>
+    <hr>
+
     <section>
       <h5>HISTORIAL ACADÉMICO</h5>
       <article>
         <ul>
           <li>
-            2021 - 2021 Finalizado <br> SOLOLEARN <button onclick="moreInfo()" type="button" id="btn_alkemy"
-              class="btn btn-dark">Más Info</button>
-            <p></p>
+            2023 - Actualidad (En curso) <br> <a href="https://www.buenosaires.gob.ar/educacion/estudiantes/sistema-educativo/terciario/formacion-tecnica-superior" target="_blank"
+              rel="noopener noreferrer">Insituto de Formación Técnica Superior N° 29</a> <button onclick="moreInfo('btn_ifts')" type="button"
+              id="btn_ifts" class="btn btn-dark">Más Info</button>
+            <p id="p_ifts"></p>
           </li>
+          <hr>
           <li>
-            2021 - 2021 Finalizado <br> Programa Codo a Codo <button onclick="moreInfo()" type="button" id="btn_alkemy"
-              class="btn btn-dark">Más Info</button>
-            <p></p>
+            2022 - Actualidad (En curso) <br> <a href="https://www.argentina.gob.ar/economia/conocimiento/argentina-programa" target="_blank"
+              rel="noopener noreferrer">Argentina Programa</a> <button onclick="moreInfo('btn_arg_programa')" type="button"
+              id="btn_arg_programa" class="btn btn-dark">Más Info</button>
+            <p id="p_arg_programa"></p>
           </li>
+          <hr>
           <li>
-            2015 - 2017 Interrumpido <br> Universidad Nacional de Lanus - UNLa <button onclick="moreInfo()"
-              type="button" id="btn_alkemy" class="btn btn-dark">Más Info</button>
-            <p></p>
+            2022 - Actualidad (En curso) <br> <a href="https://platzi.com/" target="_blank"
+              rel="noopener noreferrer">Platzi</a> <button onclick="moreInfo('btn_platzi')" type="button"
+              id="btn_platzi" class="btn btn-dark">Más Info</button>
+            <p id="p_platzi"></p>
           </li>
+          <hr>
           <li>
-            2015 Finalizado <br> Escuela Leandro N. Alem <button onclick="moreInfo()" type="button" id="btn_alkemy"
-              class="btn btn-dark">Más Info</button>
-            <p></p>
+            2021 - 2021 (Finalizado) <br> <a href="https://www.buenosaires.gob.ar/educacion/codo-codo" target="_blank"
+              rel="noopener noreferrer">Programa Codo a Codo</a> <button onclick="moreInfo('btn_codo')" type="button"
+              id="btn_codo" class="btn btn-dark">Más Info</button>
+            <p id="p_codo"></p>
+          </li>
+          <hr>
+          <li>
+            2021 - 2021 (Finalizado) <br> <a href="https://www.sololearn.com/" target="_blank"
+              rel="noopener noreferrer">SOLOLEARN</a> <button onclick="moreInfo('btn_sololearn')" type="button"
+              id="btn_sololearn" class="btn btn-dark">Más Info</button>
+            <p id="p_sololearn"></p>
+          </li>
+          <hr>
+          <li>
+            2015 - 2017 (Interrumpido) <br> <a href="http://www.unla.edu.ar/" target="_blank"
+              rel="noopener noreferrer">Universidad Nacional de Lanus - UNLa</a> <button onclick="moreInfo('btn_unla')"
+              type="button" id="btn_unla" class="btn btn-dark">Más Info</button>
+            <p id="p_unla"></p>
+          </li>
+          <hr>
+          <li>
+            2015 (Finalizado) <br> Escuela Leandro N. Alem <button onclick="moreInfo('btn_escuela')" type="button"
+              id="btn_escuela" class="btn btn-dark">Más Info</button>
+            <p id="p_escuela"></p>
           </li>
         </ul>
       </article>
@@ -94,6 +132,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
+  <script src="./JS/constantes.js"></script>
   <script src="./JS/index.js"></script>
 </body>
 
