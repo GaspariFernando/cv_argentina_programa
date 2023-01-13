@@ -9,7 +9,9 @@ function moreInfo(elementId) {
     let button = document.getElementById(elementId);
 
     paragraph.innerHTML = info.get(elementId);
+
     let isActive = paragraphIsActive(paragraph);
+
     paragraph.classList.toggle('active', isActive);
     button.innerHTML = (isActive) ? 'Menos Info' : 'Más Info';
 }

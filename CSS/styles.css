@@ -49,7 +49,7 @@ p {
     margin-top: 20px;
 }
 
-.sobre_mi{
+.sobre_mi {
     max-width: 500px;
     margin: auto;
     text-align: justify;
@@ -63,7 +63,7 @@ p {
     right: 0;
 }
 
-.perfil ul li{
+.perfil ul li {
     list-style: none;
     margin-bottom: 15px;
 }
@@ -76,5 +76,22 @@ p {
     display: block;
 }
 
+@media only screen and (max-width: 600px) {
+    h1 {
+      max-width: 200px;
+    }
+    img {
+        max-width: 150px;
+        max-height: 150px;
+    }
+  }
 
-
+  @media only screen and (max-width: 370px) {
+    h1 {
+        max-width: 130px;
+    }
+    img {
+        max-width: 100px;
+        max-height: 100px;
+    }
+  }
