@@ -68,3 +68,13 @@ p {
     margin-bottom: 15px;
 }
 
+.moreInfo {
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+
+

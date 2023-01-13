@@ -16,3 +16,14 @@ const infoSololearn = '<ul><li>Certificado en HTML. (<a href="https://www.solole
 const infoUnla = 'Licenciatura en Sistemas.';
 const infoEscuela = 'Economía y gestión de las organizaciones.';
 
+const info = new Map([
+    [idBtnIfts, infoIfts],
+    [idBtnArgPrograma, infoArgPrograma],
+    [idBtnPlatzi, infoPlatzi],
+    [idBtnAlkemy, infoAlkemy],
+    [idBtnCodo, infoCodo],
+    [idBtnSololearn, infoSololearn],
+    [idBtnUnla, infoUnla],
+    [idBtnEscuela, infoEscuela]
+]);
+
