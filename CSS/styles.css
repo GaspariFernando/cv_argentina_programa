@@ -70,6 +70,11 @@ p {
     margin-bottom: 15px;
 }
 
+.lineas-verticales{
+    
+    border-left: 1px solid cadetblue;
+}
+
 .moreInfo {
     display: none;
 }
