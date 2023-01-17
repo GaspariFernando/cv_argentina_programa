@@ -1,9 +1,11 @@
 * {
     font-family: 'Roboto', sans-serif;
+    color: aliceblue;
 }
 
 body {
-    background-color: aliceblue;
+    background: url(https://media.taringa.net/knn/fit:550/Z3M6Ly9rbjMvdGFyaW5nYS84LzAvOC85LzEvMS8zMTguanBn) no-repeat center center fixed;
+    background-size: cover;
     margin: 0 auto;
     max-width: 800px;
 }
