@@ -1,5 +1,6 @@
 const idBtnIfts = 'btn_ifts';
-const idBtnArgPrograma = 'btn_arg_programa';
+const idBtnArgProgramaPython = 'btn_arg_programa_python';
+const idBtnArgProgramaFront = 'btn_arg_programa_front';
 const idBtnPlatzi = 'btn_platzi';
 const idBtnAlkemy = 'btn_alkemy';
 const idBtnCodo = 'btn_codo';
@@ -8,7 +9,8 @@ const idBtnUnla = 'btn_unla';
 const idBtnEscuela = 'btn_escuela';
 
 const infoIfts = 'Actualmente estoy cursando el curso de preingreso a la carrera "Tecnicatura SUPERIOR en Desarrollo de Software" del Instituto de Formación Técnica Superior, modalidad a distancia.';
-const infoArgPrograma = 'Actualmente estoy desarrollando un CV en la web con HTML, CSS y JavaScript como proyecto integrador.';
+const infoArgProgramaPython = 'Aprobe el curso mediante la plataforma Ticmas donde cree programas sencillos en base al lenguaje Python y aprendi a hacer ingesta de datos con su librería Jupiter. (<a href="" target="_blank" rel="noopener noreferrer">Ver Certificado</a>)';
+const infoArgProgramaFront = 'Desarrollé el actual CV en la web con HTML, CSS y JavaScript como proyecto integrador. (<a href="" target="_blank" rel="noopener noreferrer">Ver Certificado</a>)';
 const infoPlatzi = '<ul><li>Curso de Fundamentos de Angular. (<a href="https://platzi.com/p/dev.gaspari.fernando/curso/2478-angular/diploma/detalle/" target="_blank" rel="noopener noreferrer">Ver certificado</a>)</li><li>Curso de Angular: Componentes y Servicios. (<a href="https://platzi.com/p/dev.gaspari.fernando/curso/2486-course/diploma/detalle/" target="_blank" rel="noopener noreferrer">Ver certificado</a>)</li><li>Curso de Consumo de APIs REST con Angular. (<a href="https://platzi.com/p/dev.gaspari.fernando/curso/2495-angular-apis/diploma/detalle/" target="_blank" rel="noopener noreferrer">Ver certificado</a>)</li></ul>';
 const infoAlkemy = 'Desarrollé junto a un equipo de 5 integrantes y el mentor, el backend para una página ficticia, emulando un ambiente laboral; aprendimos temas como el Manejo de Base de Datos, Metodología SCRUM, AWS S3, SendGrid, Spring-Boot, Spring Security, JUnit, Mockito, Arquitectura REST, Documentación con Swagger y Postman, Slack, Jira. (<a href="https://assets.alkemy.org/certificates/google-oauth2%7C105243236683909733966/8f4c50bf-5273-44b3-873f-57c99569a5a3.pdf" target="_blank" rel="noopener noreferrer">Ver Certificado</a>)';
 const infoCodo = 'Desarrollé junto a dos compañeros, como proyecto final, una página web de tipo E-Commerce en el cuál afianzamos conocimientos sobre HTML, CSS, Bootstrap, JavaScript, Vue, MySQL, Java, Spring-Boot, Postman.';
@@ -18,7 +20,8 @@ const infoEscuela = 'Economía y gestión de las organizaciones.';
 
 const info = new Map([
     [idBtnIfts, infoIfts],
-    [idBtnArgPrograma, infoArgPrograma],
+    [idBtnArgProgramaPython, infoArgProgramaPython],
+    [idBtnArgProgramaFront, infoArgProgramaFront],
     [idBtnPlatzi, infoPlatzi],
     [idBtnAlkemy, infoAlkemy],
     [idBtnCodo, infoCodo],
